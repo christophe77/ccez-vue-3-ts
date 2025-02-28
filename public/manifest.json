@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Vue 3 TypeScript Chrome ExtensionZ",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "./icons/icon16.jpeg",
+      "32": "./icons/icon32.jpeg",
+      "48": "./icons/icon48.jpeg",
+      "128": "./icons/icon128.jpeg"
+    }
+  },
+  "permissions": ["storage"],
+  "background": {
+    "service_worker": "./scripts/background.js"
+  }
+}
